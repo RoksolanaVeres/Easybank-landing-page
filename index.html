@@ -13,14 +13,14 @@
     <title>Easybank Landing Page</title>
   </head>
   <!-- body -->
-  <body
-    class="relative mx-auto max-w-screen-xl font-publicSans xl:overflow-x-hidden"
-  >
+  <body>
     <!-- general container -->
-    <div>
+    <div
+      class="relative mx-auto max-w-screen-xl overflow-x-hidden font-publicSans"
+    >
       <!-- header -->
       <header
-        class="absolute left-0 right-0 z-20 flex justify-between bg-white p-6 lg:px-14 xl:px-40"
+        class="fixed left-0 right-0 z-20 flex justify-between bg-white p-6 shadow-lg lg:absolute lg:px-14 xl:px-40"
       >
         <!-- logo -->
         <img src="./images/logo.svg" alt="bank logo" class="h-5 self-center" />
@@ -87,7 +87,7 @@
 
         <!-- request invite button on large screen-->
         <button
-          class="hover:from-limeGreenOpaque hover:to-brightCyanOpaque hidden h-12 w-52 cursor-pointer self-center rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-lg text-white lg:block"
+          class="hidden h-12 w-52 cursor-pointer self-center rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-lg text-white hover:from-limeGreenOpaque hover:to-brightCyanOpaque lg:block"
         >
           Request Invite
         </button>
@@ -97,7 +97,7 @@
       <main class="relative pt-16 text-center">
         <!-- overlay -->
         <div
-          class="overlay bg-darkBlueOpaque absolute bottom-0 left-0 right-0 top-0 z-10 lg:hidden"
+          class="overlay absolute bottom-0 left-0 right-0 top-0 z-10 bg-darkBlueOpaque lg:hidden"
         ></div>
         <!-- main article grid container -->
         <div class="grid lg:grid-cols-2 lg:bg-veryLightGray">
@@ -126,7 +126,7 @@
               more.
             </p>
             <button
-              class="hover:from-limeGreenOpaque hover:to-brightCyanOpaque cursor-pointer rounded-full bg-gradient-to-r from-limeGreen to-brightCyan px-10 py-4 text-sm text-white"
+              class="cursor-pointer rounded-full bg-gradient-to-r from-limeGreen to-brightCyan px-10 py-4 text-sm text-white hover:from-limeGreenOpaque hover:to-brightCyanOpaque"
             >
               Request Invite
             </button>
@@ -474,7 +474,7 @@
         <!-- button and copyright container -->
         <div class="grid justify-center pt-9 lg:justify-end lg:pt-0">
           <button
-            class="hover:from-limeGreenOpaque hover:to-brightCyanOpaque mx-auto mb-7 w-40 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan py-4 text-sm text-white"
+            class="mx-auto mb-7 w-40 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan py-4 text-sm text-white hover:from-limeGreenOpaque hover:to-brightCyanOpaque"
           >
             Request Invite
           </button>
