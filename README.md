@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/social-media-dashboard-built-with-tailwind-ZQNzbvkGmD)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-landing-page-built-with-tailwind-css-EVKz84zD3N)
 - [GitHub repo](https://github.com/RoksolanaVeres/Easybank-landing-page)
 - [Live Site](https://easybank-landing-page-mauve-two.vercel.app/)
 
